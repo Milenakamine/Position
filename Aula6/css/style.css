@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.topo{
+    width: 100%;
+    height: 40px;
+    background-color: #1c1c1c;
+}
+.container{
+    width: 1366px;
+    height: 100%;
+    margin: auto;/**centraliza**/
+}
+.menu_topo{
+    width: 100%;
+    height: 100%;
+}
+.menu_topo ul{
+    
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;/*colocar no final*/
+}
+.menu_topo a{
+    text-decoration: none;
+    color: #dfdfdf;
+    padding: 12px 30px; /*preencher*/
+}
+.menu_topo a:hover{
+    text-shadow:0px 0px 3px #dfdfdf;/*para texto*/
+    color:#fff;
+}
+.topo_principal{
+    width: 100%;
+    height: 70px;
+    background-color: #000000;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.menu_principal{
+    width: 100%;
+    height: 100%;
+}
+.menu_principal ul{
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu_principal a{
+    padding: 27px 50px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.menu_principal a:hover{ 
+    background-color: whitesmoke;
+    color: black;
+    box-shadow:0px 0px 5px black; /*para objeto*/
+}
+.destaque{
+    width: 100%;
+    height: 350px;
+    background-color: red;
+    position: relative;
+}
+
+.destaque img{
+    width: 100%;
+    height: 100%;
+
+}
+.destaque_texto{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0px 3px 5px #000000;
+}
+.destaque_texto h1{
+    font-size: 40px
+}
+.destaque_texto p{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.destaque_texto a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    box-shadow: 0px 5px 20px #d4d4d4;
+    color: white;
+
+ }
+ .destaque_texto a:hover{
+     background-color: yellowgreen;
+     box-shadow: 0px 5px 20px #fafafa;
+    color: blue;
+ }
+ .noticias h2{
+     text-align: center;
+     margin: 40px;
+ }
+ .card{
+     width: 250px;
+     height: 400px;
+     box-shadow: 0px 0px 10px black;
+     
+    
+ }
+ .card img{
+     width: 100%;
+ }
+ .card h3{
+     text-align: center;
+     margin: 5px;
+ }
+ .card p{
+     line-height: 22px;
+     padding: 0 5px;
+ }
+ .flex{
+     display: flex;
+ }
+ .space-around{
+     justify-content: space-around;
+ }
+main{
+    height: 2000px;
+}
+footer{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 80px; 
+}
